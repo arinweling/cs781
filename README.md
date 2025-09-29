@@ -42,7 +42,6 @@ python classifier.py
 └── VerifAI/               # Cloned upstream VerifAI repository
 ```
 
-
 ## License
 VerifAI itself is BSD-licensed (see its repository). This wrapper repo inherits that licensing intention; add a `LICENSE` file if distributing.
 
