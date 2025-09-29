@@ -42,15 +42,6 @@ python classifier.py
 └── VerifAI/               # Cloned upstream VerifAI repository
 ```
 
-## Troubleshooting
-| Issue | Fix |
-|-------|-----|
-| Missing README error during install | This file now resolves it. |
-| Slow dependency resolution | Skip examples extra or reuse existing `poetry.lock`. |
-| Import errors for `verifai` | Ensure you ran `python -m pip install -e .` inside `VerifAI` (handled by script). |
-| Virtualenv not active | Run `source .venv/bin/activate`. |
-
-
 
 ## License
 VerifAI itself is BSD-licensed (see its repository). This wrapper repo inherits that licensing intention; add a `LICENSE` file if distributing.
