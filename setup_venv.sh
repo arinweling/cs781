@@ -43,5 +43,5 @@ echo "[8/8] Performing editable install (pip install -e .)..."
 cd "$ROOT_DIR/VerifAI"
 python -m pip install -e .
 
-source .venv/bin/activate
+source "$ROOT_DIR/.venv/bin/activate"
 echo "Done. Activate with: source .venv/bin/activate (from repo root)."
